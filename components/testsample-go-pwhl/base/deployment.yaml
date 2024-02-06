@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: testsample-go-pwhl
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/devfile-sample-1/testsample-go-pwhl@sha256:849b0ad010ca39b7cade25c83b348a16c0d5cc4154859c1a61abb4ae7a0728e6
+      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/devfile-sample-1/testsample-go-pwhl@sha256:f29359b5874339303252bddfa8807482c17bfeb261704addece9e61393941ebd
         name: my-go
         ports:
         - containerPort: 8081
