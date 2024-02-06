@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/devfile-sample-1/dc-metro-map-mzkk@sha256:dcf926b8c5711d71a28576a3c40c93eb1ee4fc92f70ef071c35468c37d07c34d
+      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/devfile-sample-1/dc-metro-map-mzkk@sha256:e1f450085984cd378d453a0eb8d8346323941a53f7f5d6947813660856332c27
         name: container-image
         resources: {}
 status: {}
