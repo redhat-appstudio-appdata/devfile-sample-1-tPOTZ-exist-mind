@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dc-metro-map-mzkk
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/devfile-sample-1/dc-metro-map-mzkk@sha256:f395d410108db7bf49365a69a7de9b1b42360c26fa08c52b3a44a3111dba3952
+        name: container-image
+        resources: {}
+status: {}
