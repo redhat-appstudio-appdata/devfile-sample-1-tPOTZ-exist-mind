@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-mzkk
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/devfile-sample-1/dc-metro-map-mzkk@sha256:549ab37415c3c217830a96e7902dfe761c5dd7dfd7f826b2f857ef6982bce7ae
+      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/devfile-sample-1/dc-metro-map-mzkk@sha256:826bb40794b3a527553138a08db1b96629dfa173b780d8d1a798d75081c2a3b4
         imagePullPolicy: Always
         name: container-image
         ports:
