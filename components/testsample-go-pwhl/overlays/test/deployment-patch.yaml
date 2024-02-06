@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/devfile-sample-1/testsample-go-pwhl@sha256:92f9bf7874e66bb09611ec6df19d058c242841b580dd39f2accc8123deaa1386
+      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/devfile-sample-1/testsample-go-pwhl@sha256:849b0ad010ca39b7cade25c83b348a16c0d5cc4154859c1a61abb4ae7a0728e6
         name: my-go
         resources: {}
 status: {}
