@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: testsample-go-pwhl
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
